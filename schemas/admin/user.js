@@ -19,18 +19,10 @@ export default {
       type: 'string'
     },
     {
-      name: 'group',
-      title: 'Group',
-      type: 'document',
-      fields: [
-        {
-          name: 'group',
-          title: 'Group',
-          type: 'reference',
-          weak: true,
-          to: [{type: 'group'}]
-        },
-      ]
-    },
+      title: 'User Permission',
+      name: 'userPermission',
+      type: 'reference',
+      to: [{type: 'group'}]
+    }
   ]
 };

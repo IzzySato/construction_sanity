@@ -9,7 +9,7 @@ export default {
       type: 'string'
     },
     {
-      name: 'lname',
+      name: 'lName',
       title: 'Last Name',
       type: 'string'
     },

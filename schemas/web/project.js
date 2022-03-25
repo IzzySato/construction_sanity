@@ -17,11 +17,6 @@ export default {
       }
     },
     {
-      name: 'mainImgDisplayLanding',
-      title: 'Do you want to display the main image in the landing page?',
-      type: 'boolean'
-    },
-    {
       name: 'images',
       title: 'Images',
       type: 'array',
